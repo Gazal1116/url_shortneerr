@@ -102,3 +102,4 @@ Open that URL in the browser. Short links look like `http://localhost:5000/s/you
 server/src/   Express API, models, redirect hot path
 client/src/   React dashboard & landing page
 ```
+<!-- Project documentation -->
