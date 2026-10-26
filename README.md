@@ -22,7 +22,11 @@ Bitly-style MERN app: short codes, fast 302 redirects, async click logging, and 
 
 ### Prerequisites (one-time)
 
+<<<<<<< HEAD
 1. Install **Homebrew**: https://brew.sh  
+=======
+1. Install **Homebrew**: https://brew.sh
+>>>>>>> b913efd84878fbc95545029c90050aafc9e7b0c8
 2. Install **Node.js** and **MongoDB**:
 
 ```bash
@@ -41,7 +45,11 @@ mongosh --eval "db.runCommand({ ping: 1 })"
 
 ### Get the code
 
+<<<<<<< HEAD
 - Clone from GitHub: `git clone <repo-url> && cd url_shortner`  
+=======
+- Clone from GitHub: `git clone <repo-url> && cd url_shortner`
+>>>>>>> b913efd84878fbc95545029c90050aafc9e7b0c8
 - Or unzip the project folder and `cd` into it.
 
 ### Run backend (Terminal 1)
@@ -53,7 +61,11 @@ npm install
 npm run dev
 ```
 
+<<<<<<< HEAD
 API: http://localhost:5000  
+=======
+API: http://localhost:5001
+>>>>>>> b913efd84878fbc95545029c90050aafc9e7b0c8
 
 ### Run frontend (Terminal 2)
 
@@ -68,7 +80,11 @@ yarn dev
 
 App: **http://localhost:5173**
 
+<<<<<<< HEAD
 Open that URL in the browser. Short links look like `http://localhost:5000/s/your-name`.
+=======
+Open that URL in the browser. Short links look like `http://localhost:5001/s/your-name`.
+>>>>>>> b913efd84878fbc95545029c90050aafc9e7b0c8
 
 ## Key API routes
 
@@ -102,4 +118,12 @@ Open that URL in the browser. Short links look like `http://localhost:5000/s/you
 server/src/   Express API, models, redirect hot path
 client/src/   React dashboard & landing page
 ```
+<<<<<<< HEAD
 .
+=======
+<!-- Project documentation -->
+
+## Environment Configuration
+
+Create a `.env` file inside the `server` directory using `.env.example` as a reference. Configure the required environment variables for your local setup. Never commit database credentials or other secrets to GitHub.
+>>>>>>> b913efd84878fbc95545029c90050aafc9e7b0c8
