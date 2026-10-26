@@ -127,3 +127,5 @@ client/src/   React dashboard & landing page
 
 Create a `.env` file inside the `server` directory using `.env.example` as a reference. Configure the required environment variables for your local setup. Never commit database credentials or other secrets to GitHub.
 >>>>>>> b913efd84878fbc95545029c90050aafc9e7b0c8
+
+..
