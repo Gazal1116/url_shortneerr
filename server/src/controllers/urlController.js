@@ -280,6 +280,18 @@ async function getAnalytics(req, res) {
   const from = req.query.from ? new Date(req.query.from) : new Date(0);
   const to = req.query.to ? new Date(req.query.to) : new Date();
 
+  if (Number.isNaN(from.getTime()) || Number.isNaN(to.getTime())) {
+    return res.status(400).json({
+      message: 'Invalid date range',
+    });
+  }
+
+  if (from > to) {
+    return res.status(400).json({
+      message: 'Start date cannot be after end date',
+    });
+  }
+
   const match = {
     urlId: url._id,
     timestamp: { $gte: from, $lte: to },
