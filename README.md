@@ -103,3 +103,7 @@ server/src/   Express API, models, redirect hot path
 client/src/   React dashboard & landing page
 ```
 <!-- Project documentation -->
+
+## Environment Configuration
+
+Create a `.env` file inside the `server` directory using `.env.example` as a reference. Configure the required environment variables for your local setup. Never commit database credentials or other secrets to GitHub.
