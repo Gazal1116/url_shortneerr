@@ -22,7 +22,7 @@ Bitly-style MERN app: short codes, fast 302 redirects, async click logging, and 
 
 ### Prerequisites (one-time)
 
-1. Install **Homebrew**: https://brew.sh  
+1. Install **Homebrew**: https://brew.sh
 2. Install **Node.js** and **MongoDB**:
 
 ```bash
@@ -41,7 +41,7 @@ mongosh --eval "db.runCommand({ ping: 1 })"
 
 ### Get the code
 
-- Clone from GitHub: `git clone <repo-url> && cd url_shortner`  
+- Clone from GitHub: `git clone <repo-url> && cd url_shortner`
 - Or unzip the project folder and `cd` into it.
 
 ### Run backend (Terminal 1)
@@ -53,7 +53,7 @@ npm install
 npm run dev
 ```
 
-API: http://localhost:5001  
+API: http://localhost:5001
 
 ### Run frontend (Terminal 2)
 
