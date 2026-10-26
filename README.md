@@ -53,7 +53,7 @@ npm install
 npm run dev
 ```
 
-API: http://localhost:5000  
+API: http://localhost:5001  
 
 ### Run frontend (Terminal 2)
 
@@ -68,7 +68,7 @@ yarn dev
 
 App: **http://localhost:5173**
 
-Open that URL in the browser. Short links look like `http://localhost:5000/s/your-name`.
+Open that URL in the browser. Short links look like `http://localhost:5001/s/your-name`.
 
 ## Key API routes
 
