@@ -11,7 +11,7 @@ const { slugFromUrl, withUniqueSuffix } = require('../utils/slugFromUrl');
 const { validateDestinationUrl } = require('../utils/validateUrl');
 const { urlCache } = require('../middleware/cache');
 
-const BASE_URL = () => process.env.BASE_URL || 'http://localhost:5000';
+const BASE_URL = () => process.env.BASE_URL || 'http://localhost:5001';
 
 function shortPath(code) {
   return `/s/${code}`;

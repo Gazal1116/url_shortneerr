@@ -1,4 +1,4 @@
-/** Full short URL display, e.g. http://localhost:5000/s/docs-brief */
+/** Full short URL display, e.g. http://localhost:5001/s/docs-brief */
 export default function ShortLink({ url, className = '' }) {
   if (!url?.shortUrl) return null;
 

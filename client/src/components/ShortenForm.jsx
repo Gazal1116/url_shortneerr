@@ -110,7 +110,7 @@ export default function ShortenForm({ onCreated }) {
         <div className="flex flex-col gap-1">
           <div className="flex flex-col gap-2 rounded-xl border border-ink/8 bg-white/60 px-3 py-2.5 sm:flex-row sm:items-center">
             <span className="shrink-0 font-mono text-sm text-ink/40">
-              localhost:5000/s/
+              localhost:5001/s/
             </span>
             <input
               value={form.customAlias}

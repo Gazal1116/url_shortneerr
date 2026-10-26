@@ -15,4 +15,4 @@ api.interceptors.request.use((config) => {
 export default api;
 
 export const SHORT_BASE =
-  import.meta.env.VITE_SHORT_BASE || 'http://localhost:5000';
+  import.meta.env.VITE_SHORT_BASE || 'http://localhost:5001';

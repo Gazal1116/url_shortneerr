@@ -10,7 +10,7 @@ const urlRoutes = require('./routes/urlRoutes');
 const { redirect } = require('./controllers/redirectController');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 app.set('trust proxy', 1);
 
